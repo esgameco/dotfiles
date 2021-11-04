@@ -146,3 +146,6 @@ alias gconf="vim ~/.gitconfig"
 # fzf
 source /usr/share/fzf/completion.bash
 source /usr/share/fzf/key-bindings.bash
+
+# Terminal Color
+export TERM="xterm-256color"

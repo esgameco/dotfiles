@@ -136,6 +136,13 @@ ex ()
   fi
 }
 
+    ## Helper Functions ##
+
+# Checks whether the current OS is the argument
+isOS() {
+    echo $(hostnamectl | grep -c "$1") 
+}
+
 # Personal Aliases
 alias ll="ls -alF"
 alias vrc="vim ~/.vimrc"
@@ -143,9 +150,7 @@ alias brc="vim ~/.bashrc"
 alias tconf="vim ~/.tmux.conf"
 alias gconf="vim ~/.gitconfig"
 
-# fzf
-source /usr/share/fzf/completion.bash
-source /usr/share/fzf/key-bindings.bash
-
 # Terminal Color
 export TERM="xterm-256color"
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash

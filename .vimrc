@@ -75,3 +75,7 @@ call plug#end()
 " Plugin Config
 set laststatus=2
 set noshowmode
+
+" Temp Fix
+set nobackup
+set noundofile

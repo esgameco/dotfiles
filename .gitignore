@@ -66,6 +66,7 @@
 !.vim/*/*/*/*
 !.vim/*/*/*/*/*
 !.vim/*/*/*/*/*/*
+.vim/tmp
 # Do ignore netrw history
 .vim/.netrwhist
 # Do ignore vim-plug stuff, sigh
@@ -95,6 +96,7 @@ etc/clusto*.conf
 !.tmux.conf
 !.tmux
 !.tmux/*.yml
+!.tmux.conf.local
 
 # Gem config
 !.gemrc

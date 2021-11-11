@@ -69,6 +69,7 @@ Plug 'https://github.com/sevko/vim-nand2tetris-syntax'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'itchyny/lightline.vim'
 Plug 'preservim/nerdtree'
+Plug 'ycm-core/YouCompleteMe'
 
 call plug#end()
 

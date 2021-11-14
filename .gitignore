@@ -137,3 +137,6 @@ etc/clusto*.conf
 # Random arbitrary not-really-a-config file,
 # for use with hexdump
 !.config/hexdump.format
+
+# Linux Binaries
+!bin

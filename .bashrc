@@ -153,4 +153,8 @@ alias gconf="vim ~/.gitconfig"
 # Terminal Color
 export TERM="xterm-256color"
 
+# Path Commands
+export PATH=$PATH:~/bin/
+
+# FZF
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash

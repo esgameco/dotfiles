@@ -15,4 +15,12 @@
 
 # Unignore necessary directories
 !.vim
+!.vim/*
+!.vim/**/*
+.vim/plugged
 !bin
+!bin/*
+!.config/
+!.config/nvim/
+!.config/nvim/*
+!.config/nvim/**/*

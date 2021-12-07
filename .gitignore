@@ -140,3 +140,6 @@ etc/clusto*.conf
 
 # Linux Binaries
 !bin
+
+# Nvim
+!.config/nvim

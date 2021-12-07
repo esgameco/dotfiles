@@ -149,12 +149,22 @@ alias vrc="vim ~/.vimrc"
 alias brc="vim ~/.bashrc"
 alias tconf="vim ~/.tmux.conf"
 alias gconf="vim ~/.gitconfig"
+alias nrc="vim ~/.config/nvim/init.vim"
 
 # Terminal Color
 export TERM="xterm-256color"
 
 # Path Commands
 export PATH=$PATH:~/bin/
+
+# .config
+export XDG_DATA_HOME=~/.config
+
+# go
+export PATH=$PATH:/usr/local/go/bin
+export GOBIN=~/go/bin
+export GOPATH=~/go
+export GO111MODULE=off
 
 # FZF
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash

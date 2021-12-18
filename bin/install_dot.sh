@@ -54,6 +54,9 @@ mv ./dotfiles/* ${base_dir}
 # Deletes dotfiles repository
 rm -r ./dotfiles
 
+# Install Packages
+source ~/bin/installs/installs.sh
+
 # Install FZF
 if [[ ! -e ${base_dir}/.fzf ]]; then
     git clone --depth 1 https://github.com/junegunn/fzf.git ${base_dir}/.fzf
@@ -67,8 +70,3 @@ if [[ $(isOS ubuntu) ]]; then
 elif [[ $(isOS arch) ]]; then
     curl -fsSL https://rpm.nodesource.com/setup_lts.x | sudo bash -
 fi
-
-# Delete self (only needed for when used as a file)
-#if [[ ! ${debug} ]]; then
-#    rm -- "$0"
-#fi

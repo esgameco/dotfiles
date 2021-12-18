@@ -27,7 +27,10 @@ shopt -s dotglob
 git clone "https://github.com/esgameco/dotfiles"
 
 # Moves all dotfiles to ~
-mv ./dotfiles/* ${base_dir}
+mv -f ./dotfiles/* ${base_dir}
 
 # Deletes dotfiles repository
 rm -r ./dotfiles
+
+# Install packages
+source ~/bin/installs/installs.sh
